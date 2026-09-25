@@ -50,7 +50,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto flex flex-col gap-32">
         <div className="flex flex-col md:flex-row md:items-end justify-between gap-12">
           <div className="space-y-4">
-            <div className="text-[10px] tracking-[0.5em] opacity-30 uppercase font-mono">
+            <div className="text-xs font-semibold tracking-wider tracking-[0.5em] opacity-30 uppercase font-mono">
               Next Stage
             </div>
             <Reveal>
@@ -69,7 +69,7 @@ export const Footer = () => {
           </div>
           
           <div className="flex flex-col gap-6 md:items-end">
-            <div className="glass px-10 py-4 rounded-full text-[10px] font-bold tracking-[0.3em] uppercase cursor-pointer hover:bg-white/10 transition-all shadow-2xl border-white/10 text-accent/60 hover:text-accent">
+            <div className="glass px-10 py-4 rounded-full text-xs font-semibold tracking-wider font-bold tracking-[0.3em] uppercase cursor-pointer hover:bg-white/10 transition-all shadow-2xl border-white/10 text-accent/60 hover:text-accent">
               View Manifest
             </div>
           </div>

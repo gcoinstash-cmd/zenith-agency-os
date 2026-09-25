@@ -80,7 +80,7 @@ const BentoCard = ({ item }: { item: typeof ITEMS[0] }) => {
         whileHover={{ y: -5 }}
         transition={{ type: "spring", stiffness: 300, damping: 20 }}
       >
-        <div className="text-[10px] mb-2 opacity-30 uppercase tracking-[0.3em] font-mono transition-opacity group-hover:opacity-60">
+        <div className="text-xs font-semibold tracking-wider mb-2 opacity-30 uppercase tracking-[0.3em] font-mono transition-opacity group-hover:opacity-60">
           {item.id} / {item.category}
         </div>
         <h3 className="font-serif text-3xl italic tracking-tight text-accent group-hover:translate-x-2 transition-transform duration-500">
@@ -98,7 +98,7 @@ export const BentoGrid = () => {
       <Reveal className="mb-20">
         <div className="flex items-center gap-6">
           <div className="h-px w-24 bg-white/10" />
-          <h2 className="text-[10px] tracking-[0.5em] opacity-30 uppercase font-mono italic">Recent Archive</h2>
+          <h2 className="text-xs font-semibold tracking-wider tracking-[0.5em] opacity-30 uppercase font-mono italic">Recent Archive</h2>
         </div>
       </Reveal>
       

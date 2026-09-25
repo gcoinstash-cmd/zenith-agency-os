@@ -5,7 +5,7 @@ const LOGOS = ["VELVET", "OBSIDIAN", "MONO", "ARCH", "KINETIC", "SILK", "OAK"];
 export const LogoMarquee = () => {
   return (
     <div className="py-24 border-y border-white/5 overflow-hidden bg-base relative z-10 flex flex-col items-center">
-      <div className="text-[10px] tracking-[0.5em] opacity-30 uppercase font-mono mb-12">
+      <div className="text-xs font-semibold tracking-wider tracking-[0.5em] opacity-30 uppercase font-mono mb-12">
         Trusted by Sector Leaders
       </div>
       <motion.div 
@@ -20,7 +20,7 @@ export const LogoMarquee = () => {
         {[...LOGOS, ...LOGOS, ...LOGOS].map((logo, i) => (
           <span 
             key={i} 
-            className="text-[11px] font-bold tracking-[0.4em] text-accent/20 hover:text-accent/60 transition-colors cursor-default uppercase"
+            className="text-xs font-semibold font-bold tracking-[0.4em] text-accent/20 hover:text-accent/60 transition-colors cursor-default uppercase"
           >
             {logo}
           </span>

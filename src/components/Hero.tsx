@@ -9,7 +9,7 @@ export const Hero = ({ onOpenAdmin }: { onOpenAdmin?: () => void }) => {
           <button
             type="button"
             onClick={onOpenAdmin}
-            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full glass border border-white/20 hover:border-white/40 text-accent font-mono text-[10px] uppercase tracking-widest transition-all cursor-pointer shadow-lg"
+            className="flex items-center gap-1.5 px-3 py-1.5 rounded-full glass border border-white/20 hover:border-white/40 text-accent font-mono text-base font-semibold min-h-[44px] font-semibold tracking-wider uppercase tracking-widest transition-all cursor-pointer shadow-lg"
           >
             <span className="w-1.5 h-1.5 rounded-full bg-accent animate-pulse"></span>
             [ ATELIER PASS ]
@@ -18,7 +18,7 @@ export const Hero = ({ onOpenAdmin }: { onOpenAdmin?: () => void }) => {
       )}
       <div className="relative z-10 max-w-5xl text-center flex flex-col items-center">
         <Reveal delay={0.1}>
-          <div className="text-[10px] tracking-[0.2em] opacity-60 mb-8 uppercase font-mono">
+          <div className="text-xs font-semibold tracking-wider tracking-[0.2em] opacity-60 mb-8 uppercase font-mono">
             Creative Direction & Narrative Design
           </div>
         </Reveal>
@@ -30,7 +30,7 @@ export const Hero = ({ onOpenAdmin }: { onOpenAdmin?: () => void }) => {
         </Reveal>
 
         <Reveal delay={0.4} className="mx-auto">
-          <p className="max-w-md mx-auto text-[11px] leading-relaxed opacity-40 uppercase tracking-[0.25em] font-sans">
+          <p className="max-w-md mx-auto text-xs font-semibold leading-relaxed opacity-40 uppercase tracking-[0.25em] font-sans">
             Digital craftsmanship for the elite creative sector. We shape the void between technical precision and cinematic atmosphere.
           </p>
         </Reveal>

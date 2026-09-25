@@ -17,7 +17,7 @@ export const DesignersNote = ({ isOpen, setIsOpen }: DesignersNoteProps) => {
       >
         <div className="glass px-6 py-3 rounded-full flex items-center gap-3 border-white/10 hover:border-neon/40 hover:shadow-[0_0_20px_rgba(204,255,0,0.15)] transition-all">
           <Info size={16} className="text-accent/60 group-hover:text-neon transition-colors" />
-          <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-accent/60 group-hover:text-accent transition-colors">
+          <span className="text-xs font-semibold tracking-wider font-bold tracking-[0.2em] uppercase text-accent/60 group-hover:text-accent transition-colors">
             Behind the Design
           </span>
         </div>
@@ -41,7 +41,7 @@ export const DesignersNote = ({ isOpen, setIsOpen }: DesignersNoteProps) => {
 
             <div className="max-w-4xl mx-auto relative z-10">
               <Reveal>
-                <span className="font-mono text-[10px] uppercase tracking-[0.5em] text-accent/30 mb-8 block">
+                <span className="font-mono text-xs font-semibold tracking-wider uppercase tracking-[0.5em] text-accent/30 mb-8 block">
                   ETSY SELLER VALUE-ADD: DESIGNER'S NOTE
                 </span>
               </Reveal>
@@ -56,11 +56,11 @@ export const DesignersNote = ({ isOpen, setIsOpen }: DesignersNoteProps) => {
                 <Reveal delay={0.3}>
                   <div className="space-y-6">
                     <p>
-                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-[10px] block mb-2 font-mono">Cognitive Clarity</strong>
+                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-xs font-semibold tracking-wider block mb-2 font-mono">Cognitive Clarity</strong>
                       By utilizing aggressive negative space and a restricted monochrome palette, we eliminate the "Visual Noise" that plagues modern portfolios. This directs focus purely on the work, increasing retention.
                     </p>
                     <p>
-                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-[10px] block mb-2 font-mono">Premium Positioning</strong>
+                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-xs font-semibold tracking-wider block mb-2 font-mono">Premium Positioning</strong>
                       High-contrast dark mode combined with glassmorphism signals luxury and technical proficiency. It positions your client as an authority rather than just another service provider.
                     </p>
                   </div>
@@ -68,11 +68,11 @@ export const DesignersNote = ({ isOpen, setIsOpen }: DesignersNoteProps) => {
                 <Reveal delay={0.4}>
                   <div className="space-y-6">
                     <p>
-                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-[10px] block mb-2 font-mono">Motion Hierarchy</strong>
+                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-xs font-semibold tracking-wider block mb-2 font-mono">Motion Hierarchy</strong>
                       Every scroll reveal is intentionally timed to guide the eye through the narrative. Animation is used strategically to focus attention on core content and conversions.
                     </p>
                     <p>
-                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-[10px] block mb-2 font-mono">Minimal Friction</strong>
+                      <strong className="text-accent/80 font-medium tracking-wide uppercase text-xs font-semibold tracking-wider block mb-2 font-mono">Minimal Friction</strong>
                       The Schibsted Grotesk + Playfair Display pairing creates a legible yet sophisticated environment that reduces cognitive load, leading to higher quality inquiries.
                     </p>
                   </div>
